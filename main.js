@@ -1,4 +1,3 @@
-console.log("JS file is connected HTML")
 
 var cards = ["queen", "queen", "king", "king",];
 
