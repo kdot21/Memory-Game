@@ -39,9 +39,9 @@ function isTwoCards() {
 	cardsInPlay.push(this.getAttribute('data-card'));
 		console.log(this.getAttribute('data-card'));
 	if (this.getAttribute('data-card') === 'king') {
-		this.innerHTML = "<img src='http://i.imgur.com/bnuv5Im.png'>"; // king
+		this.innerHTML = "<img src='https://pixabay.com/static/uploads/photo/2012/04/11/13/52/spades-28320_1280.png'>"; // king
 	} else {
-		this.innerHTML = "<img src='http://i.imgur.com/v6buNt2.png'>"; //queen
+		this.innerHTML = "<img src='https://pixabay.com/static/uploads/photo/2012/04/11/13/52/spades-28321_1280.png'>"; //queen
 	}
 
 if (cardsInPlay.length === 2) {
